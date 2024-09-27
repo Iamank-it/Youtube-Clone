@@ -1,0 +1,69 @@
+
+body{
+  background-color: black;
+}
+.video{
+  margin: 0px;
+  max-width: 400px;
+  font-family: Roboto,arial;
+}
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2%;
+}
+.thumbnail-image{
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+.video-description{
+  display: flex;
+  text-decoration: none;
+  margin-top: 2%;
+  
+}
+.avatar{
+  padding: 2%;
+}
+.avatar img{
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+.description{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  overflow-wrap: break-word;
+}
+.description div{
+  margin-top: 1%;
+}
+.video-heading{
+  font-weight: bold;
+  color: white;
+}
+.channel-name{
+  color: grey;
+}
+.channel-name a{
+  color: grey;
+}
+.description a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.more img{
+  height: 22px;
+  width: 22px;
+}
+.three-dot{
+  filter: invert(0.6);
+}
+.more{
+  fill: currentColor;
+}
