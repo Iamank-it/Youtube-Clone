@@ -1,4 +1,52 @@
 .navbar{
-  background-color: green;
+  display: flex;
+  height: 56px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.first{
+  width: 200px;
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+.second{
+  flex: 1;
+}
+.third{
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+.hamburger-menu{
+  height: 24px;
+}
+.youtube-logo{
+  height: 20px;
+  margin-left: 23px;
+}
+.second{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
 }
+.search box{
+  
+}
+.search-icon{
+  height: 24px;
+}
+
+.third-icon{
+  height: 24px;
+}
+.profile{
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+} 
