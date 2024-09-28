@@ -9,6 +9,8 @@ body{
 }
 .content{
   display: grid;
+  width: 90%;
+  margin-left: 10%;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 2%;
 }
