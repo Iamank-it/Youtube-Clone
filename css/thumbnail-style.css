@@ -1,6 +1,6 @@
 
 body{
-  background-color: black;
+  background-color: white;
 }
 .video{
   margin: 0px;
@@ -47,7 +47,7 @@ body{
 }
 .video-heading{
   font-weight: bold;
-  color: white;
+  color: black;
 }
 .channel-name{
   color: grey;
@@ -64,7 +64,9 @@ body{
   width: 22px;
 }
 .three-dot{
-  filter: invert(0.6);
+  cursor: pointer;
+  background-color: white;
+  border: none;
 }
 .more{
   fill: currentColor;
