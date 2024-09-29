@@ -6,8 +6,10 @@ body{
 }
 .video{
   margin: 0px;
-  max-width: 400px;
+  padding-bottom: 20px;
+  max-width: 360px;
   font-family: Roboto,arial;
+  justify-content: center;
 }
 .content{
   margin-top: 20px;
@@ -63,15 +65,15 @@ body{
   text-decoration: none;
   cursor: pointer;
 }
+.more{
+  margin-top: 2%;
+}
 .more img{
   height: 22px;
   width: 22px;
 }
 .three-dot{
   cursor: pointer;
-  background-color: white;
+  background-color: #f7f7f7;
   border: none;
-}
-.more{
-  fill: currentColor;
 }
