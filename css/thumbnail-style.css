@@ -18,7 +18,7 @@ body{
   overflow: hidden;
   display: grid;
   flex: 1;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 1%;
 }
 .thumbnail-image{
