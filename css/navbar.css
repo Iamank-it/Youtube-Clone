@@ -42,14 +42,16 @@
   border-style: solid;
   border-color: #cccccc;
   border-width: 1px;
+  padding-left: 12px;
+  color: gray;
 }
 .search-box::placeholder{
   font-size: 16px;
-  padding-left: 12px;
   font-family: Roboto,Arial;
 }
 .search-box::after{
   font-family: Roboto,Arial;
+  font-size: 16px;
 }
 .search-icon{
   height: 26px;
