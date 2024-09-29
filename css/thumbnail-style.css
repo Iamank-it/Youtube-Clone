@@ -2,6 +2,7 @@
 body{
   background-color: #f7f7f7;
   margin: 0;
+  height: 100%;
 }
 .video{
   margin: 0px;
@@ -9,14 +10,17 @@ body{
   font-family: Roboto,arial;
 }
 .content{
+  margin-top: 20px;
+  margin-left: 8%;
+  overflow: hidden;
   display: grid;
-  width: 100%;
+  flex: 1;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 2%;
+  column-gap: 1%;
 }
 .thumbnail-image{
-  height: 250px;
-  width: 400px;
+  height: 200px;
+  width: 350px;
   object-fit: cover;
   object-position: center;
   border-radius: 10px;

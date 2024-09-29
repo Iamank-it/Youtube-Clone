@@ -1,0 +1,30 @@
+.sidebar{
+  width: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 0;
+  padding-top: 20px;
+  position: fixed;
+  top: 56px;
+  bottom: 0;
+  padding-bottom: 60px;
+}
+.sidebar img{
+  height: 24px;
+}
+.side-icon{
+  font-family: Roboto,Arial;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+.side-icon p{
+  font-size: 10px;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+}
