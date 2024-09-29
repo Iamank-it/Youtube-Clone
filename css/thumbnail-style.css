@@ -13,7 +13,8 @@ body{
 }
 .content{
   margin-top: 20px;
-  margin-left: 8%;
+  margin-left: 85px;
+  margin-top: 85px;
   overflow: hidden;
   display: grid;
   flex: 1;
