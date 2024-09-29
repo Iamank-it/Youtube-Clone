@@ -10,8 +10,7 @@ body{
 }
 .content{
   display: grid;
-  width: 90%;
-  margin-left: 10%;
+  width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 2%;
 }
