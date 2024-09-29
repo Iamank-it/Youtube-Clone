@@ -1,5 +1,5 @@
 .sidebar{
-  width: 6%;
+  width: 70px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,7 +9,7 @@
   position: fixed;
   top: 56px;
   bottom: 0;
-  padding-bottom: 60px;
+  padding-bottom: 135px;
 }
 .sidebar img{
   height: 24px;
