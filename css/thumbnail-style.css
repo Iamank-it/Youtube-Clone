@@ -36,6 +36,10 @@ body{
 }
 .avatar{
   padding: 2%;
+  
+}
+.avatar a{
+  cursor: pointer;
 }
 .avatar img{
   height: 36px;
