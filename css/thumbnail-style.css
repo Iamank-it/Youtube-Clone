@@ -15,15 +15,12 @@ body{
   margin-top: 20px;
   margin-left: 85px;
   margin-top: 85px;
-  overflow: hidden;
   display: grid;
-  flex: 1;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 1%;
 }
-.thumbnail-image{
-  height: 200px;
-  width: 350px;
+.thumbnail-image{ 
+  width: 100%;
   object-fit: cover;
   object-position: center;
   border-radius: 10px;
