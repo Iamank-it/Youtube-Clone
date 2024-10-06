@@ -19,6 +19,19 @@ body{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 1%;
 }
+.vid-1{
+  position: relative;
+}
+.timer{
+  background-color: black;
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  padding: 4px;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 5px;
+}
 @media (min-width: 850px) and (max-width: 1200px) {
  .content{
   grid-template-columns: 1fr 1fr 1fr;
