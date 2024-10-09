@@ -9,7 +9,6 @@
   position: fixed;
   top: 0;
   padding-top: 75px;
-  z-index: -1;
   bottom: 0;
   padding-bottom: 135px;
 }
@@ -23,6 +22,15 @@
   margin: 0;
   padding: 0;
   flex-direction: column;
+}
+.side-button{
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  margin: 0;
+}
+.side-button:hover{
+  background-color: lightblue;
 }
 .side-icon p{
   font-size: 10px;
