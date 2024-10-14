@@ -82,6 +82,13 @@ body{
   margin-top: 1%;
 }
 .video-heading{
+  display: -webkit-box;
+  -webkit-line-clamp:2 ;
+  -webkit-box-orient: vertical;
+  height: 48px;
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-weight: bold;
   color: black;
 }
